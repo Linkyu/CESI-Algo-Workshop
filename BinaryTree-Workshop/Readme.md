@@ -37,8 +37,11 @@ function insert(Node, i){
 }  
 ```
 - Donner la complexité de cet algorithme au pire des cas.
-- Construire l’ABR résultant des insertions successives suivantes :
-21, 9, 12, 34, 36, 35, 5, 8, 1, 25
+  - **Soit n la profondeur maximum de l'arbre.\
+    O(insert) = 3n\
+    ( 2 comparaisons et 1 affectation par noeud )**
+- Construire l’ABR résultant des insertions successives suivantes : `21, 9, 12, 34, 36, 35, 5, 8, 1, 25`
+  - ![Tree example](tree1.png)
 
 ### c) SUPPRIMER
 - Quels sont les différents cas possibles lors de la suppression d’un nœud ?
