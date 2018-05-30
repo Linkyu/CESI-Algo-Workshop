@@ -8,7 +8,7 @@ nœuds de son sous-arbre droit.
 ### a) INTRODUCTION
 - D’après la définition, donner plusieurs exemples d’ABR.
   - **Recherche d'un nombre précis**
-  - **???**
+  - **Price de décision**
 - Voyez-vous d’ores et déjà des applications pratiques à cette structure ?
   - **oui**
 
@@ -87,5 +87,5 @@ autrement dit en considérant à chaque fois le sous-arbre en cours de traitemen
   - **C'est dans l'ordre croissant**
 
 ### e) IMPLEMENTATION
-- Donner une implémentation possible des ABR à l’aide d’un tableau statique.
-- Donner une implémentation possible des ABR à l’aide d’une structure plus évoluée.
+- Donner une implémentation possible des ABR à l’aide d’une structure.
+  - See [BinaryTree.py](BinaryTree.py)
