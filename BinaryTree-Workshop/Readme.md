@@ -60,27 +60,31 @@ function insert(Node, i){
 ### d) PARCOURS
 Il existe 3 types de parcours d’un ABR : (attention, les définitions ci-dessous sont données de manière récursive,
 autrement dit en considérant à chaque fois le sous-arbre en cours de traitement).
-Parcours Infixe
 
-On parcourt dans l'ordre :
+#### Parcours Infixe
 * le sous-arbre gauche
 * la racine
 * le sous-arbre droit
 
-Parcours Préfixe
+#### Parcours Préfixe
 * la racine
 * le sous arbre gauche
 * le sous arbre droit
 
-Parcours Postfixe
+#### Parcours Postfixe
 * le sous arbre gauche
 * le sous arbre droit
 * la racine
 
+#### Questions
 - Donner le parcours infixe de l’ABR réalisé en b)
+  - `1, 5, 8, 9, 12, 21, 25, 34, 35, 36`
 - Donner le parcours préfixe de ce même ABR
+  - `21, 9, 5, 1, 8, 12, 34, 25, 36, 35`
 - Donner le parcours postfixe de ce même ABR
+  - `1, 8, 5, 12, 9, 25, 35, 36, 34, 21`
 - Que pouvez-vous remarquer sur le résultat du parcours infixe ?
+  - **C'est dans l'ordre croissant**
 
 ### e) IMPLEMENTATION
 - Donner une implémentation possible des ABR à l’aide d’un tableau statique.
