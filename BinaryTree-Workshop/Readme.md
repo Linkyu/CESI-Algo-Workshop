@@ -45,9 +45,17 @@ function insert(Node, i){
 
 ### c) SUPPRIMER
 - Quels sont les différents cas possibles lors de la suppression d’un nœud ?
+  - **1) Pas de fils**
+  - **2) 1 fils**
+  - **3) 2 fils**
 - Comment procéder dans chacun des cas pour conserver les propriétés des ABR ?
+  - **1) Suppression directe**
+  - **2) Remplacement du noeud par son fils**
+  - **2) Rotation du noeud (ce qui peut impliquer une rotation du noeud montant), puis remplacement par son fils maintenant unique**
 - Supprimer l’élément 36 de l’ABR précédent. Donner l’ABR résultant.
+  - ![Tree example](tree2.png)
 - Supprimer l’élément 9 de l’ABR précédent. Donner l’ABR résultant.
+  - ![Tree example](tree3.png)
 
 ### d) PARCOURS
 Il existe 3 types de parcours d’un ABR : (attention, les définitions ci-dessous sont données de manière récursive,
